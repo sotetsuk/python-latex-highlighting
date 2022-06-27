@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pythonhighlight}
+
+\title{Python Latex Highlighting}
+\author{Sotetsu KOYAMADA}
+
+\begin{document}
+
+\maketitle
+
+\begin{figure}[htbp]
+\centering
+\begin{python}
+print("Hello world")
+
+for x in range(10):
+    print(x)
+
+    done = False
+while not done:
+    print("Hi")
+    done = True
+
+a = A()
+a.show()
+\end{python}
+\caption{\textbf{Python code.}}
+\end{figure}
+
+
+\end{document}
